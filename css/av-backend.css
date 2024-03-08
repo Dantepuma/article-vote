@@ -1,0 +1,74 @@
+.av-header {
+    background: #f59d40;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+.av-settings-section-wrap {
+    background: #fff;
+    min-height: 370px;
+    margin-top: 20px;
+    padding:20px
+}
+.av-clear {
+    clear: both;
+}
+.av-field-wrap {
+    margin-bottom: 20px;
+}
+.av-field-wrap > label {
+    display: inline-block;
+    font-weight: 500;
+    width: 250px;
+    vertical-align: top;
+}
+.av-field {
+    display: inline-block;
+}
+
+.av-field input[type="text"] {
+    width: 500px;
+}
+
+.av-header h3{color:#fff;}
+.av-info-wrap {
+    background: #257924;
+    color: #fff;
+    position: fixed;
+    top: 32px;
+    left: 45%;
+    padding: 10px;
+}
+img.av-loader {
+    margin-right: 10px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+.av-close-info {
+    margin-left: 20px;
+    cursor: pointer;
+}
+span.av-preview-holder {
+    width: 50px;
+    display: block;
+    margin-top: 10px;
+}
+span.av-preview-holder img {
+    max-width: 100% !important;
+}
+.av-separator {
+    border-bottom: 1px solid #bbb;
+    padding: 10px;
+}
+.av-settings-section-wrap pre {
+    border-left: 5px solid #258ef7;
+    background: #eee;
+    padding: 5px;
+}
+.av-fixed-height {
+    height: 300px;
+    overflow-y: scroll;
+}
+label.av-checkbox-label {
+    display: block;
+    margin-bottom: 10px;
+}

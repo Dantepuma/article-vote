@@ -1,0 +1,62 @@
+.av-like-dislike-wrap {
+    display: inline-block;
+    margin-bottom:20px;
+}
+.av-common-wrap {
+    display: inline-block;
+    min-width: 50px;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 8px;
+
+}
+.av-common-wrap > a.av-like-dislike-trigger {
+    text-decoration: none;
+    box-shadow: 0 0 0 !important;
+    border-bottom: 0;
+}
+.av-count-wrap {
+    margin-left: 5px;
+}
+.av-share-wrap {
+    display: inline-block;
+    margin-left: 50px;
+}
+.av-share-wrap a {
+    box-shadow: 0 0 0 !important;
+    margin: 0 10px;
+    border:1px solid #fff;
+}
+.av-like-dislike-wrap br{display:none;}
+.av-like-dislike-wrap p{display:none;}
+
+.av-like-dislike-wrap .av-common-wrap {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.ml-2{
+    margin-left: 8px;
+}
+.av-voted-trigger{
+    border: 1px solid blue ;
+}
+/* Media query for mobile and smaller screens */
+@media (max-width: 768px) {
+    
+    .voteTitle{
+        width: 100%;
+        margin-bottom: 4px;
+    }
+    .flex{
+        flex-wrap: wrap;
+    }
+    .av-like-dislike-wrap .av-common-wrap {
+        margin-left: 0px;
+    }
+
+  }
+  
