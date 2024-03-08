@@ -6,6 +6,9 @@ if (!class_exists('AV_Ajax')) {
 
         function __construct() {
             add_action('wp_ajax_av_post_ajax_action', array($this, 'like_dislike_action'));
+            // for non logged in users
+            add_action('wp_ajax_nopriv_av_post_ajax_action', array($this, 'like_dislike_action')); 
+            
         }
 
         function like_dislike_action() {
