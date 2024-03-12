@@ -1,2 +1,2 @@
 # article-vote
-This is a custom plugin for find.co test task
+This is a custom plugin for test task
